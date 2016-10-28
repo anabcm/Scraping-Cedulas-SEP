@@ -1,8 +1,8 @@
 Scraping formato Json
 Variar Nombre y número de registros
-http://search.sep.gob.mx/solr/cedulasCore/select?fl=%2A%2Cscore&q=PrimerNombre+SegundoNombre+ApellidoPaterno&start=0&rows=NumerodeRegistros&facet=true&indent=on&wt=json
+http://search.sep.gob.mx/solr/cedulasCore/select?fl=%2A%2Cscore&q=PrimerNombre+SegundoNombre+ApellidoPaterno&start=0&rows=NumerodeRegistros
 Ejemplo
-http://search.sep.gob.mx/solr/cedulasCore/select?fl=%2A%2Cscore&q=Enrique+Peña+Nieto&start=0&rows=10&facet=true&indent=on&wt=json
+http://search.sep.gob.mx/solr/cedulasCore/select?fl=%2A%2Cscore&q=Enrique+Peña+Nieto&start=0&rows=10
 Devuelve
 {      {
         "nombre":"ENRIQUE",

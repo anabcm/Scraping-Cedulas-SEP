@@ -1,0 +1,19 @@
+Scraping formato Json
+Variar Nombre y número de registros
+http://search.sep.gob.mx/solr/cedulasCore/select?fl=%2A%2Cscore&q=PrimerNombre+SegundoNombre+ApellidoPaterno&start=0&rows=NumerodeRegistros&facet=true&indent=on&wt=json
+Ejemplo
+http://search.sep.gob.mx/solr/cedulasCore/select?fl=%2A%2Cscore&q=Enrique+Peña+Nieto&start=0&rows=10&facet=true&indent=on&wt=json
+Devuelve
+{      {
+        "nombre":"ENRIQUE",
+        "id":"1629426|C1",
+        "numCedula":"1629426",
+        "titulo":"LICENCIATURA EN DERECHO",
+        "genero":"1",
+        "institucion":"UNIVERSIDAD PANAMERICANA",
+        "materno":"NIETO",
+        "anioRegistro":1991,
+        "tipo":"C1",
+        "paterno":"PEÑA",
+        "timestamp":"2016-10-28T09:14:32.135Z",
+        "score":3.5007443},
